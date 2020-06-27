@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    xmlns:app="http://schemas.android.com/tools"
+
+    android:id="@+id/cardview1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="5dp"
+    card_view:contentPadding="5dp"
+
+    card_view:cardCornerRadius="5dp"
+    card_view:cardMaxElevation="5dp"
+    app:ignore="NamespaceTypo">
+
+    <RelativeLayout
+        android:id="@+id/ww"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp"
+
+        android:background="#ECEFF1">
+
+
+        <TextView
+            android:id="@+id/sname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="20dp"
+            android:text="salon name"
+            android:textColor="#000"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/list1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_alignLeft="@+id/sname1"
+            android:layout_alignStart="@+id/sname1"
+            android:layout_below="@+id/datte1"
+            android:layout_marginTop="9dp"
+
+            android:text="list"
+            android:textColor="#000"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/datte1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/sname1"
+            android:layout_marginEnd="47dp"
+            android:layout_marginRight="7dp"
+            android:text="date"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/amount1"
+            android:layout_alignLeft="@+id/datte1"
+            android:layout_alignStart="@+id/datte1"
+            android:layout_alignTop="@+id/list1"
+            android:text="time"
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/status1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/amount1"
+            android:layout_alignBottom="@+id/amount1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="31dp"
+            android:layout_marginRight="18dp"
+android:layout_marginLeft="8dp"
+            android:text="Status"
+            android:textColor="#cf1f1f"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/amount1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="18dp"
+            android:text="amount"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="56dp"
+            android:textColor="#000"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_below="@+id/ww"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ee"
+
+        android:orientation="horizontal"
+        android:layout_marginTop="142dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+
+        <Button
+            android:id="@+id/onn"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="20dp"
+            android:width="150dp"
+            android:height="70dp"
+            android:background="@drawable/btn_corner"
+            android:text="accept"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/off"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="20dp"
+            android:width="150dp"
+            android:height="70dp"
+            android:background="@drawable/btn_corner"
+            android:text="deny"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

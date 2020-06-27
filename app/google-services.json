@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1053438143076",
+    "firebase_url": "https://major-project-college.firebaseio.com",
+    "project_id": "major-project-college",
+    "storage_bucket": "major-project-college.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053438143076:android:5b9ae3f4e8754af13fcd71",
+        "android_client_info": {
+          "package_name": "com.example.neutronxstudios.tea_winding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053438143076-etrmlu6h3cle0sdhp87o0ffuvh38s34r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzfpa_C5xlxwm9lN-Faysihu8QAghSt64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053438143076-etrmlu6h3cle0sdhp87o0ffuvh38s34r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.neutronxstudios.tea_winding.ServiceListActivity">
+
+    <Button
+        android:id="@+id/fab"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="23dp"
+        android:background="@drawable/buttonshape"
+        android:text="next-->"
+        android:layout_marginBottom="21dp"
+        android:textColor="#121313" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/brbr"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="12dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Barber Name"
+                android:textColor="#632162"
+                android:textSize="29dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=" HAIR CUTTING  "
+                android:textColor="#5b5432"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+
+                android:textSize="17dp"
+                android:layout_below="@id/textView1"
+                android:text="   Normal Hair cutting :-Rs 50.00" />
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="   Style Hair Cutting :-RS 80"
+                android:textStyle="bold"
+                android:textSize="17dp"
+
+                android:layout_gravity="center"
+                />
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Normal Shaving :-RS 40"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Special Shaving:-RS 50"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Hair Shampoo:-RS 50"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Head Massage:-RS 50"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Trimming:-RS 30"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Trimming With Lining:-RS 40"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" HAIR COLOUR  "
+                android:textColor="#5b5432"
+                android:textSize="27dp"
+
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="  Loreal Black:-RS 400"
+
+                android:textColor="#000"
+
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="  Loreal Brown:-RS 450"
+                android:textColor="#000"
+                android:textSize="17dp"
+
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Garnier Black:-RS 160"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+
+
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Garnier Burgundy RS:-180"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Garnier Brown:-RS 180"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+
+
+            <CheckBox
+                android:id="@+id/checkBox14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Garnier Red:-RS 200"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/checkBox15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Strex Black:-RS 160"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/checkBox16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Strex Burgundy:-RS 120"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/checkBox17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Godrej Black:-RS 120"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/checkBox18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Godrej Brown:-RS 120"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/checkBox19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Hair Mehandi:-RS 150"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/checkBox20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Highlight Colour:-RS 70(per strip)"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="  HAIR SPA  "
+                android:textColor="#5b5432"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Loreal  RS:-750"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/checkBox22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Metrix:-RS 650"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/checkBox23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Streax:-RS 600"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="  HAIR STRAIGHTENING  "
+                android:textColor="#5b5432"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+            <CheckBox
+                android:id="@+id/checkBox24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Full Hair With Loreal Cream:-RS 2500"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/checkBox25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Half Hair With Loreal Cream:-RS 1600"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <CheckBox
+                android:id="@+id/checkBox26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Matrix Hair With Loreal Cream:-RS 1800"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=" FACE WASH  "
+                android:textColor="#5b5432"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+            <CheckBox
+                android:id="@+id/checkBox27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Garnier:-RS 50"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:id="@+id/checkBox28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Lotus:-Rs 60,70"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:id="@+id/checkBox29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Biotique:-RS 60"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <CheckBox
+                android:id="@+id/checkBox30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Jovees:-RS 50"
+                android:textSize="17dp"
+                android:textColor="#000"
+
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
+

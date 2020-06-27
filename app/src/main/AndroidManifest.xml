@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.neutronxstudios.tea_winding">
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="BOQ"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SalonLoginActivity" />
+        <activity android:name=".SalonConfirmationListActivity" />
+        <activity android:name=".SalonHomePageActivity" />
+        <activity android:name=".SplashActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAP2f2ZyOcYxLX2HyStMcQt3Mmb0KIeCN4" />
+
+        <activity android:name=".SalonSplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ResetActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" />
+        <activity android:name=".MainMenuActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".ScannerActivity" />
+        <activity android:name=".PaymentDetailsActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ConfirmActivity" />
+        <activity android:name=".ServiceListActivity" />
+        <activity android:name=".FinalListActivity" />
+        <activity android:name=".BookingHistoryActivity" />
+    </application>
+
+</manifest>

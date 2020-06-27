@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/signup"
+    tools:context="com.example.neutronxstudios.tea_winding.ConfirmActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        app:srcCompat="@drawable/thank_you" />
+
+    <TextView
+        android:id="@+id/mob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView6"
+        android:layout_alignRight="@+id/imageView6"
+        android:layout_centerVertical="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Payment method"
+        android:textColor="#800625"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cash"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mob"
+        android:layout_alignStart="@+id/mob"
+        android:layout_below="@+id/mob"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/buttonshape"
+        android:text="Cash payment"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.905" />
+
+    <Button
+        android:id="@+id/upi"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mob"
+        android:layout_alignStart="@+id/mob"
+        android:layout_below="@+id/cash"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/buttonshape"
+        android:text="UPI payment"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.809"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.905" />
+</RelativeLayout>
